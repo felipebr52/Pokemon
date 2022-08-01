@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/">
+    <title>Mapa Dev Week</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img  src="src\imagens\pokebola.png" alt="pokebola" class="pokebola"/>
+        <h1 class="titulo">Mapa Dev Week</h1>
+    </header>
+
+    <main class="poke-carta">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src\imagens\seta.png" alt="seta voltar"/>
+        </button>
+
+        <ul class="lista-pokemon">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="tipo">Tipo:<abbr title="Elétrico">&#x26A1</abbr></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/pikachu.png" alt="Pikachu" class="img-poke">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="descr-titulo">Descrição</h3>
+                    <p class="descr-texto">Quando vários destes pokemons se juntam, a eletricidade deles pode se acumular e causar uma tempestade de raios! Acredita-se que, os pikachus são extremamente inteligentes.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="tipo">Tipo:<abbr title="Fogo">&#x1F525</abbr></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/charizard.png" alt="Charizard" class="img-poke">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="descr-titulo">Descrição</h3>
+                    <p class="descr-texto">O Charizard voa á procura de fortes oponentes. O fogo que ele expele, pode derreter qualquer material</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="tipo">Tipo:<abbr title="Psiquico">&#x1F9E0</abbr></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/mewtwo.png" alt="Mewtwo" class="img-poke">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="descr-titulo">Descrição</h3>
+                    <p class="descr-texto">Um pokemon feito através de manipulação genética. Apesar dos cientistas terem conseguido fazer seu corpo, eles falharam em lhe dar um coração caloroso.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src\imagens\seta.png" alt="seta proceder">
+        </button>
+
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
